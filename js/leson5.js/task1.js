@@ -5,13 +5,13 @@ let menu = prompt("Меню напоїв:\n1. кава\n2. чай\n3. сік\n\n
 
 switch (menu.toLowerCase()) {
     case "кава":
-        alert("кава");
+        alert("Ви замовили каву");
         break;
     case "чай":
-        alert("чай");
+        alert("Ви замовили чай");
         break;
     case "сік":
-        alert("сік");
+        alert("Ви замовили сік");
         break;
     default:
         alert("В меню немає такого напою.");
