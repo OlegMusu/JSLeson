@@ -2,8 +2,9 @@
 // циклу for. Якщо число парне, пропустити його за допомогою continue.
 
 for(let i = 2; i <= 20; i += 1){
-    if(i === 2){
+    if( i % 2 === 0){
         continue;
-    }
-    console.log(i)
+    }else{
+    console.log(`непарні числа ${i}`)
+  }
 }
