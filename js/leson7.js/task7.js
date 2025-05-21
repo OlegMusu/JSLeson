@@ -1,3 +1,5 @@
 // Створити масив з 10-ти чисел. Знайти всі парні числа в масиві та вивести їх на екран.
 
-const number = [10, 20, 10, 30, 50, 30, 50, 20, 40, 70];
+const number = [1, 3, 6, 8, 21, 12, 62, 72, 51, 5];
+let evenNumbers = number.filter(num => num % 2 === 0);
+console.log(evenNumbers)
