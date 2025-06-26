@@ -10,4 +10,4 @@ const findLongestWord = function(string) {
     }
     return longestWord;
 }
-console.log(findLongestWord)
+console.log(findLongestWord(string))
